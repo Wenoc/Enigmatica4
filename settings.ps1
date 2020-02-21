@@ -40,10 +40,10 @@ $CURSEFORGE_PROJECT_ID = 330372
 # =====================================================================//
 
 # Default: "1.0.0"
-$MODPACK_VERSION = "0.4.5"
+$MODPACK_VERSION = "0.4.8"
 
 # Only used by the Changelog Generator
-$LAST_MODPACK_VERSION = "0.4.4"
+$LAST_MODPACK_VERSION = "0.4.7"
 
 $FORGE_VERSION=28.2.0
 
@@ -92,7 +92,8 @@ $CONTENTS_TO_ZIP = @(
 "server-start-readme.md", 
 "server-start.bat", 
 "server-start.sh", 
-"settings.cfg", 
+"settings.cfg",  
+"settings-linux.cfg",
 "server.properties", 
 "server-guide.txt")
 
@@ -101,7 +102,8 @@ $CONTENTS_TO_MOVE = @(
 "server-start-readme.md", 
 "server-start.bat", 
 "server-start.sh", 
-"settings.cfg", 
+"settings.cfg",  
+"settings-linux.cfg",
 "server.properties", 
 "server-guide.txt")
 
